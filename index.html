@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delish - A Fine Dining Experience</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <h1 class="logo">Delish</h1>
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#food">Category</a></li>
+          <li><a href="#food-menu">Menu</a></li>
+          <li><a href="#testimonials">Review</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section" id="home">
+      <div class="hero-content">
+        <h1 class="main-title">Fresh, Delicious, Memorable</h1>
+        <p class="tagline">Serving exquisite meals with care.</p>
+        <a href="#food-menu" class="btn-primary">View Menu</a>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <p>
+            At Delish, we have been crafting delightful dining experiences for
+            over a decade. Our chefs blend fresh, locally sourced ingredients
+            to create dishes that are as nutritious as they are delicious.
+          </p>
+        </div>
+        <div class="about-img">
+          <img
+            src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg"
+            alt="About Us"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Food Categories Section -->
+    <section id="food" class="reveal">
+      <h2>Food Categories</h2>
+      <div class="food-container container">
+       <div class="food-category">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\italian.jpeg"
+            alt="Italian"
+          />
+          <h3>Italian</h3>
+          <p>Enjoy pasta, pizzas, and more from Italy.</p>
+        </div>
+        <div class="food-category">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\asian.webp"
+            alt="Asian"
+          />
+          <h3>Asian</h3>
+          <p>Flavors inspired by the exotic East.</p>
+        </div>
+        <div class="food-category">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\Dessert.jpg"
+            alt="Desserts"
+          />
+          <h3>Desserts</h3>
+          <p>Sweet endings to your dining experience.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Food Menu Section -->
+    <section id="food-menu" class="reveal">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="food-menu-container container">
+        <div class="menu-item">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\Spaghetti Carbonara.webp"
+            alt="Spaghetti Carbonara"
+          />
+          <h3>Spaghetti Carbonara</h3>
+          <p>A classic Italian pasta dish.</p>
+          <span>$12.99</span>
+        </div>
+        <div class="menu-item">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\Sushi-Platter.jpg"
+            alt="Sushi Platter"
+          />
+          <h3>Sushi Platter</h3>
+          <p>Fresh and flavorful sushi rolls.</p>
+          <span>$18.99</span>
+        </div>
+        <div class="menu-item">
+          <img
+            src="C:\Users\yanja\OneDrive\Desktop\Task\Task 2\Task 3\Task 4\Task 5\Tiramisu.webp"
+            alt="Tiramisu"
+          />
+          <h3>Tiramisu</h3>
+          <p>A creamy, coffee-flavored dessert.</p>
+          <span>$7.99</span>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Customer Reviews Section -->
+    <section id="testimonials" class="reveal">
+      <h2>Customer Reviews</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial">
+          <p>
+            “Delish never disappoints! The flavors are out of this world, and
+            the service is exceptional. A must-visit for food lovers!”
+          </p>
+          <h4>- Emily R.</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            “I love the variety of dishes at Delish. Everything from appetizers
+            to desserts is top-notch. Highly recommend!”
+          </p>
+          <h4>- John D.</h4>
+        </div>
+        <div class="testimonial">
+          <p>
+            “The best dining experience I’ve had in a long time. Fresh
+            ingredients, lovely ambiance, and friendly staff!”
+          </p>
+          <h4>- Sarah K.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <h2>Contact Us</h2>
+      <div class="contact-container container">
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Email:</strong> info@delish.com</p>
+          <p><strong>Address:</strong> 123 Foodie Street, Flavor Town, USA</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Delish. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
